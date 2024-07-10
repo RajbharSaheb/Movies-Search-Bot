@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.parse
 
-API_KEY = "your_api_key"
+API_KEY = "edffd2c035f678acf5c16e67c64ce21ce2b8a2a0"
 
 def search_movies(query):
     try:
