@@ -9,7 +9,7 @@ API_KEY = "edffd2c035f678acf5c16e67c64ce21ce2b8a2a0"
 def search_movies(query):
     try:
         encoded_query = urllib.parse.quote_plus(query)
-        url = f"https://185.53.88.104/?s={encoded_query}"
+        url = f"https://mp4moviez.cab/?s={encoded_query}"
         website = BeautifulSoup(requests.get(url).text, "html.parser")
         movies_list = []
         for movie in website.find_all("a", {'class': 'ml-mask jt'}):
